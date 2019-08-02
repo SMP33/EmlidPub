@@ -9,3 +9,6 @@ VisualGDBCache/
 #build directories
 bin/
 build/
+
+#old files
+*.old
