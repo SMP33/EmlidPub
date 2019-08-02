@@ -36,6 +36,7 @@ int main(int argc, char *argv[])
 			msg.time_s = d.ss;
 		}
 		pub.publish(msg);
+		cout << msg.lat << endl;
 		ros::spinOnce();
 		r.sleep();
 	}
