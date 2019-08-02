@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{803FD0C6-D64E-4E16-9DC3-1DAEC859A3D2}") = "EmlidPub", "EmlidPub.vgdbcmake", "{E2571FB9-5D32-4233-8FD9-2D19CA8BAE11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|VisualGDB = Debug|VisualGDB
+		MinSizeRel|VisualGDB = MinSizeRel|VisualGDB
+		Release|VisualGDB = Release|VisualGDB
+		RelWithDebInfo|VisualGDB = RelWithDebInfo|VisualGDB
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2571FB9-5D32-4233-8FD9-2D19CA8BAE11}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{E2571FB9-5D32-4233-8FD9-2D19CA8BAE11}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{E2571FB9-5D32-4233-8FD9-2D19CA8BAE11}.MinSizeRel|VisualGDB.ActiveCfg = MinSizeRel|VisualGDB
+		{E2571FB9-5D32-4233-8FD9-2D19CA8BAE11}.MinSizeRel|VisualGDB.Build.0 = MinSizeRel|VisualGDB
+		{E2571FB9-5D32-4233-8FD9-2D19CA8BAE11}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{E2571FB9-5D32-4233-8FD9-2D19CA8BAE11}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{E2571FB9-5D32-4233-8FD9-2D19CA8BAE11}.RelWithDebInfo|VisualGDB.ActiveCfg = RelWithDebInfo|VisualGDB
+		{E2571FB9-5D32-4233-8FD9-2D19CA8BAE11}.RelWithDebInfo|VisualGDB.Build.0 = RelWithDebInfo|VisualGDB
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06C6D8F8-80FB-4560-B483-115A4B079FE6}
+	EndGlobalSection
+EndGlobal
