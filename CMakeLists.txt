@@ -4,6 +4,7 @@
 cmake_minimum_required(VERSION 2.7)
 project(EmlidPub)
 set(LIBRARIES_FROM_REFERENCES "")
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/../bin)
 
 find_package(roscpp REQUIRED)
 include_directories(${roscpp_INCLUDE_DIRS})
