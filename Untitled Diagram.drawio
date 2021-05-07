@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-07T14:49:31.674Z" agent="5.0 (Windows)" etag="MnzjbGCZVaQ0MlFEi5Ed" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-07T14:50:22.205Z" agent="5.0 (Windows)" etag="bDqnedX4SI9KL4SgLDI5" version="14.6.11" type="github">
   <diagram id="kqHRchUTWrbgLfPyTyG0" name="Page-1">
     <mxGraphModel dx="1808" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -40,7 +40,7 @@
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;" edge="1" parent="1" source="pTG25tufGUdgOwVjfufl-11">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="610" y="280" as="targetPoint" />
+            <mxPoint x="760" y="280" as="targetPoint" />
             <Array as="points">
               <mxPoint x="540" y="280" />
               <mxPoint x="540" y="280" />
@@ -123,7 +123,7 @@
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-43" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="pTG25tufGUdgOwVjfufl-36">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="720" y="92.62068965517244" as="targetPoint" />
+            <mxPoint x="760" y="93" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-45" value="&lt;div&gt;Положение&lt;/div&gt;&lt;div&gt; в НЗСК&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="pTG25tufGUdgOwVjfufl-43">
@@ -133,7 +133,7 @@
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-46" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="pTG25tufGUdgOwVjfufl-36">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="720" y="137.44827586206895" as="targetPoint" />
+            <mxPoint x="760" y="137" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-47" value="&lt;br&gt;&lt;div&gt;Скорость&lt;/div&gt;&lt;div&gt; в НЗСК&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="pTG25tufGUdgOwVjfufl-46">
