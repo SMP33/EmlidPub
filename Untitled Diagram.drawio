@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-07T14:50:31.552Z" agent="5.0 (Windows)" etag="VQnS7QUrpot4JD2Gfnal" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-07T14:51:00.971Z" agent="5.0 (Windows)" etag="nRAxpdJ0NIHLmtJUvE2x" version="14.6.11" type="github">
   <diagram id="kqHRchUTWrbgLfPyTyG0" name="Page-1">
-    <mxGraphModel dx="1808" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="1673" dy="898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,12 +8,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-1" value="Акселерометр + коррекция показаний" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="200" y="180" width="90" height="90" as="geometry" />
+          <mxGeometry x="200" y="320" width="90" height="90" as="geometry" />
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-2" value="" style="endArrow=classic;html=1;labelBackgroundColor=none;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="19.99999999999999" y="224.66" as="sourcePoint" />
-            <mxPoint x="130" y="224.66" as="targetPoint" />
+            <mxPoint x="19.99999999999999" y="364.65999999999997" as="sourcePoint" />
+            <mxPoint x="130" y="364.65999999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-3" value="Ускорение&amp;nbsp; $$n_x, n_y, n_z$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="pTG25tufGUdgOwVjfufl-2">
@@ -26,24 +26,24 @@
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;" edge="1" parent="1" source="pTG25tufGUdgOwVjfufl-4" target="pTG25tufGUdgOwVjfufl-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="138.40689655172417" y="175" as="targetPoint" />
+            <mxPoint x="138.40689655172417" y="315" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-4" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="130" y="210" width="30" height="30" as="geometry" />
+          <mxGeometry x="130" y="350" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.225;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;" edge="1" parent="1" source="pTG25tufGUdgOwVjfufl-9" target="pTG25tufGUdgOwVjfufl-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-9" value="Оценка угла по кажущемуся ускорению" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="310" y="180" width="80" height="90" as="geometry" />
+          <mxGeometry x="310" y="320" width="80" height="90" as="geometry" />
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;" edge="1" parent="1" source="pTG25tufGUdgOwVjfufl-11">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="760" y="280" as="targetPoint" />
+            <mxPoint x="760" y="420" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="540" y="280" />
-              <mxPoint x="540" y="280" />
+              <mxPoint x="540" y="420" />
+              <mxPoint x="540" y="420" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -53,20 +53,20 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-11" value="&lt;div&gt;Наблюдатель&lt;/div&gt;&lt;div&gt;Калмана&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="410" y="180" width="90" height="200" as="geometry" />
+          <mxGeometry x="410" y="320" width="90" height="200" as="geometry" />
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;" edge="1" parent="1" source="pTG25tufGUdgOwVjfufl-13">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="408" y="335" as="targetPoint" />
+            <mxPoint x="408" y="475" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-13" value="Гироскоп" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="200" y="305" width="90" height="60" as="geometry" />
+          <mxGeometry x="200" y="445" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-20" value="" style="endArrow=classic;html=1;labelBackgroundColor=none;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="20.000000000000114" y="334.65999999999997" as="sourcePoint" />
-            <mxPoint x="130" y="334.65999999999997" as="targetPoint" />
+            <mxPoint x="20.000000000000114" y="474.65999999999997" as="sourcePoint" />
+            <mxPoint x="130" y="474.65999999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-21" value="&lt;div&gt;Угловая &lt;br&gt;&lt;/div&gt;&lt;div&gt;скорость&amp;nbsp; $$\omega_x, \omega_y, \omega_z$$&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="pTG25tufGUdgOwVjfufl-20">
@@ -76,19 +76,19 @@
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;" edge="1" parent="1" source="pTG25tufGUdgOwVjfufl-23" target="pTG25tufGUdgOwVjfufl-23">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="138.40689655172417" y="285" as="targetPoint" />
+            <mxPoint x="138.40689655172417" y="425" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;" edge="1" parent="1" source="pTG25tufGUdgOwVjfufl-23" target="pTG25tufGUdgOwVjfufl-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-23" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="130" y="320" width="30" height="30" as="geometry" />
+          <mxGeometry x="130" y="460" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-24" value="Шум" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;" edge="1" parent="1" target="pTG25tufGUdgOwVjfufl-23">
           <mxGeometry x="-0.3333" y="25" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="145" y="275" as="sourcePoint" />
-            <mxPoint x="123.19999999999999" y="225" as="targetPoint" />
+            <mxPoint x="145" y="415" as="sourcePoint" />
+            <mxPoint x="123.19999999999999" y="365" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -96,23 +96,23 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-30" value="&lt;div&gt;Получение&lt;/div&gt;&lt;div&gt;ускорения &lt;br&gt;&lt;/div&gt;&lt;div&gt;в НЗСК&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="480" y="70" width="80" height="90" as="geometry" />
+          <mxGeometry x="480" y="210" width="80" height="90" as="geometry" />
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-32" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="280" as="sourcePoint" />
-            <mxPoint x="520" y="160" as="targetPoint" />
+            <mxPoint x="520" y="420" as="sourcePoint" />
+            <mxPoint x="520" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-33" value="" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;labelBackgroundColor=none;" edge="1" parent="1" target="pTG25tufGUdgOwVjfufl-30">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="296" y="225" as="sourcePoint" />
-            <mxPoint x="476" y="115" as="targetPoint" />
+            <mxPoint x="296" y="365" as="sourcePoint" />
+            <mxPoint x="476" y="255" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="310" y="180" />
-              <mxPoint x="296" y="170" />
-              <mxPoint x="296" y="170" />
-              <mxPoint x="296" y="115" />
+              <mxPoint x="310" y="320" />
+              <mxPoint x="296" y="310" />
+              <mxPoint x="296" y="310" />
+              <mxPoint x="296" y="255" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -123,7 +123,7 @@
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-43" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="pTG25tufGUdgOwVjfufl-36">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="760" y="93" as="targetPoint" />
+            <mxPoint x="760" y="233" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-45" value="&lt;div&gt;Положение&lt;/div&gt;&lt;div&gt; в НЗСК&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="pTG25tufGUdgOwVjfufl-43">
@@ -133,7 +133,7 @@
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-46" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="pTG25tufGUdgOwVjfufl-36">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="760" y="137" as="targetPoint" />
+            <mxPoint x="760" y="277" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-47" value="&lt;br&gt;&lt;div&gt;Скорость&lt;/div&gt;&lt;div&gt; в НЗСК&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="pTG25tufGUdgOwVjfufl-46">
@@ -142,12 +142,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-36" value="&lt;div&gt;Наблюдатель&lt;/div&gt;&lt;div&gt;Калмана&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="580" y="70" width="80" height="90" as="geometry" />
+          <mxGeometry x="580" y="210" width="80" height="90" as="geometry" />
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-39" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;labelBackgroundColor=none;" edge="1" parent="1" target="pTG25tufGUdgOwVjfufl-30">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="370" y="93" as="sourcePoint" />
-            <mxPoint x="480" y="90" as="targetPoint" />
+            <mxPoint x="370" y="233" as="sourcePoint" />
+            <mxPoint x="480" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-40" value="Угол&lt;br&gt;&lt;div&gt;курса&lt;/div&gt;&lt;div&gt;$$\psi$$&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="pTG25tufGUdgOwVjfufl-39">
@@ -157,15 +157,15 @@
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-41" value="Шум" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;" edge="1" parent="1">
           <mxGeometry x="-0.3333" y="25" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="144.66" y="165" as="sourcePoint" />
-            <mxPoint x="144.66" y="210.0000000000001" as="targetPoint" />
+            <mxPoint x="144.66" y="305" as="sourcePoint" />
+            <mxPoint x="144.66" y="350.0000000000001" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-42" value="&lt;div&gt;Показания GNSS&lt;/div&gt;&lt;div&gt; с учетом &lt;br&gt;&lt;/div&gt;&lt;div&gt;RTK коррекции&lt;/div&gt;" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;" edge="1" parent="1">
           <mxGeometry x="-1" y="20" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="620" y="180" as="sourcePoint" />
-            <mxPoint x="619.66" y="160" as="targetPoint" />
+            <mxPoint x="620" y="320" as="sourcePoint" />
+            <mxPoint x="619.66" y="300" as="targetPoint" />
             <mxPoint x="20" y="20" as="offset" />
           </mxGeometry>
         </mxCell>
