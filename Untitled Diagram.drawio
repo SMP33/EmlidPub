@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-07T14:23:51.616Z" agent="5.0 (Windows)" etag="P8nimjE1eDItE49ON7N5" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-07T14:26:28.384Z" agent="5.0 (Windows)" etag="Rcl_ewTCFxN6OA0ll2qR" version="14.6.11" type="github">
   <diagram id="kqHRchUTWrbgLfPyTyG0" name="Page-1">
     <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -7,13 +7,13 @@
         <mxCell id="pTG25tufGUdgOwVjfufl-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pTG25tufGUdgOwVjfufl-1" target="pTG25tufGUdgOwVjfufl-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pTG25tufGUdgOwVjfufl-1" value="$$Акселерометр$$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="193.2" y="190" width="120" height="60" as="geometry" />
+        <mxCell id="pTG25tufGUdgOwVjfufl-1" value="Акселерометр + коррекция показаний" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-2" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="13.199999999999989" y="219.66" as="sourcePoint" />
-            <mxPoint x="123.19999999999999" y="219.66" as="targetPoint" />
+            <mxPoint x="19.99999999999999" y="219.66" as="sourcePoint" />
+            <mxPoint x="130" y="219.66" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-3" value="Ускорение&amp;nbsp; $$n_x, n_y, n_z$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pTG25tufGUdgOwVjfufl-2">
@@ -30,16 +30,53 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-4" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="123.19999999999999" y="205" width="30" height="30" as="geometry" />
+          <mxGeometry x="130" y="205" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-8" value="Шум" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="pTG25tufGUdgOwVjfufl-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="138.2" y="160" as="sourcePoint" />
+            <mxPoint x="145" y="160" as="sourcePoint" />
             <mxPoint x="123.19999999999999" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pTG25tufGUdgOwVjfufl-9" value="&lt;div&gt;Коррекция&lt;/div&gt;&lt;div&gt;показаний&lt;/div&gt;&lt;div&gt;акселерометра&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="353.20000000000005" y="190" width="120" height="60" as="geometry" />
+        <mxCell id="pTG25tufGUdgOwVjfufl-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.009;entryY=0.178;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pTG25tufGUdgOwVjfufl-9" target="pTG25tufGUdgOwVjfufl-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pTG25tufGUdgOwVjfufl-9" value="Оценка угла по кажущемуся ускорению" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360.00000000000006" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pTG25tufGUdgOwVjfufl-11" value="Фильтр Калмана" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="190" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="pTG25tufGUdgOwVjfufl-13" value="Акселерометр + коррекция показаний" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pTG25tufGUdgOwVjfufl-20" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20.000000000000114" y="329.65999999999997" as="sourcePoint" />
+            <mxPoint x="130" y="329.65999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pTG25tufGUdgOwVjfufl-21" value="Ускорение&amp;nbsp; $$n_x, n_y, n_z$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pTG25tufGUdgOwVjfufl-20">
+          <mxGeometry x="-0.153" y="-1" relative="1" as="geometry">
+            <mxPoint y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pTG25tufGUdgOwVjfufl-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pTG25tufGUdgOwVjfufl-23" target="pTG25tufGUdgOwVjfufl-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="138.40689655172417" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pTG25tufGUdgOwVjfufl-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pTG25tufGUdgOwVjfufl-23" target="pTG25tufGUdgOwVjfufl-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pTG25tufGUdgOwVjfufl-23" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="315" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pTG25tufGUdgOwVjfufl-24" value="Шум" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="pTG25tufGUdgOwVjfufl-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="145" y="270" as="sourcePoint" />
+            <mxPoint x="123.19999999999999" y="220" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
