@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-07T14:26:28.384Z" agent="5.0 (Windows)" etag="Rcl_ewTCFxN6OA0ll2qR" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-07T14:26:54.867Z" agent="5.0 (Windows)" etag="C7lLUN1QlgCDzxglGiuZ" version="14.6.11" type="github">
   <diagram id="kqHRchUTWrbgLfPyTyG0" name="Page-1">
-    <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="1808" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,7 +56,7 @@
             <mxPoint x="130" y="329.65999999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pTG25tufGUdgOwVjfufl-21" value="Ускорение&amp;nbsp; $$n_x, n_y, n_z$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pTG25tufGUdgOwVjfufl-20">
+        <mxCell id="pTG25tufGUdgOwVjfufl-21" value="&lt;div&gt;Угловая &lt;br&gt;&lt;/div&gt;&lt;div&gt;скорость&lt;/div&gt;&lt;div&gt;&amp;nbsp; $$\omega_x, \omega_y, \omega_z$$&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pTG25tufGUdgOwVjfufl-20">
           <mxGeometry x="-0.153" y="-1" relative="1" as="geometry">
             <mxPoint y="3" as="offset" />
           </mxGeometry>
