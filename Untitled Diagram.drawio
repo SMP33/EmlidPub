@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-07T14:45:05.046Z" agent="5.0 (Windows)" etag="8fPrSxIOdYIOG3XsKAOJ" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-07T14:46:25.039Z" agent="5.0 (Windows)" etag="QqCrRGqt9Kh77grk6lr1" version="14.6.11" type="github">
   <diagram id="kqHRchUTWrbgLfPyTyG0" name="Page-1">
     <mxGraphModel dx="1808" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -140,6 +140,13 @@
             <mxPoint x="144.66" y="165" as="sourcePoint" />
             <mxPoint x="144.66" y="210.0000000000001" as="targetPoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pTG25tufGUdgOwVjfufl-42" value="&lt;div&gt;Показания GNSS&lt;/div&gt;&lt;div&gt; с учетом &lt;br&gt;&lt;/div&gt;&lt;div&gt;RTK коррекции&lt;/div&gt;" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry x="-1" y="20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="180" as="sourcePoint" />
+            <mxPoint x="609.66" y="160" as="targetPoint" />
+            <mxPoint x="20" y="20" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
