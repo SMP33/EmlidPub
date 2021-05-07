@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-07T14:42:35.361Z" agent="5.0 (Windows)" etag="1Q8ZIY7e7BPA3RjSSb4v" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-07T14:43:33.130Z" agent="5.0 (Windows)" etag="t3aKzetAOA7DqSkDIn63" version="14.6.11" type="github">
   <diagram id="kqHRchUTWrbgLfPyTyG0" name="Page-1">
     <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -114,6 +114,8 @@
             <mxPoint x="296" y="225" as="sourcePoint" />
             <mxPoint x="476" y="115" as="targetPoint" />
             <Array as="points">
+              <mxPoint x="296" y="170" />
+              <mxPoint x="296" y="170" />
               <mxPoint x="296" y="115" />
             </Array>
           </mxGeometry>
@@ -125,6 +127,18 @@
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-36" value="Фильтр Калмана" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="580" y="70" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pTG25tufGUdgOwVjfufl-38" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="180" as="sourcePoint" />
+            <mxPoint x="560" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pTG25tufGUdgOwVjfufl-39" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="90" as="sourcePoint" />
+            <mxPoint x="480" y="90" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
