@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-07T14:29:46.600Z" agent="5.0 (Windows)" etag="mWfQPbkfOgDMAJMQvle3" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-07T14:30:55.755Z" agent="5.0 (Windows)" etag="aPiQoQXJskFadxM6_QH6" version="14.6.11" type="github">
   <diagram id="kqHRchUTWrbgLfPyTyG0" name="Page-1">
     <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -43,6 +43,16 @@
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-9" value="Оценка угла по кажущемуся ускорению" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="175" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pTG25tufGUdgOwVjfufl-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pTG25tufGUdgOwVjfufl-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="274.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pTG25tufGUdgOwVjfufl-29" value="$$\;\;\gamma, \vartheta\;\;$$&amp;nbsp; " style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pTG25tufGUdgOwVjfufl-28">
+          <mxGeometry x="-0.1787" relative="1" as="geometry">
+            <mxPoint y="7" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-11" value="Фильтр Калмана" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="175" width="60" height="200" as="geometry" />
