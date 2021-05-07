@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-07T14:29:01.413Z" agent="5.0 (Windows)" etag="T9gKyikpXgSnYwmlultr" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-07T14:29:46.600Z" agent="5.0 (Windows)" etag="mWfQPbkfOgDMAJMQvle3" version="14.6.11" type="github">
   <diagram id="kqHRchUTWrbgLfPyTyG0" name="Page-1">
     <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -45,7 +45,7 @@
           <mxGeometry x="310" y="175" width="80" height="90" as="geometry" />
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-11" value="Фильтр Калмана" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="175" width="124" height="200" as="geometry" />
+          <mxGeometry x="410" y="175" width="60" height="200" as="geometry" />
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pTG25tufGUdgOwVjfufl-13">
           <mxGeometry relative="1" as="geometry">
