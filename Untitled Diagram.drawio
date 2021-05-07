@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-07T14:44:30.621Z" agent="5.0 (Windows)" etag="lxyYL2PxgpaIr7LNjPJM" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-07T14:45:05.046Z" agent="5.0 (Windows)" etag="8fPrSxIOdYIOG3XsKAOJ" version="14.6.11" type="github">
   <diagram id="kqHRchUTWrbgLfPyTyG0" name="Page-1">
     <mxGraphModel dx="1808" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -31,12 +31,6 @@
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-4" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="130" y="210" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="pTG25tufGUdgOwVjfufl-8" value="Шум" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;" edge="1" parent="1" target="pTG25tufGUdgOwVjfufl-4">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="145" y="165" as="sourcePoint" />
-            <mxPoint x="123.19999999999999" y="115" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.225;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;" edge="1" parent="1" source="pTG25tufGUdgOwVjfufl-9" target="pTG25tufGUdgOwVjfufl-11">
           <mxGeometry relative="1" as="geometry" />
@@ -92,9 +86,10 @@
           <mxGeometry x="130" y="320" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-24" value="Шум" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;" edge="1" parent="1" target="pTG25tufGUdgOwVjfufl-23">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
+          <mxGeometry x="-0.3333" y="25" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="145" y="275" as="sourcePoint" />
             <mxPoint x="123.19999999999999" y="225" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-37" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;labelBackgroundColor=none;" edge="1" parent="1" source="pTG25tufGUdgOwVjfufl-30" target="pTG25tufGUdgOwVjfufl-36">
@@ -121,7 +116,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pTG25tufGUdgOwVjfufl-35" value="&lt;div&gt;Ускорение &lt;br&gt;&lt;/div&gt;&lt;div&gt;в связной СК&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="pTG25tufGUdgOwVjfufl-33">
+        <mxCell id="pTG25tufGUdgOwVjfufl-35" value="&lt;div&gt;Ускорение&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;в связной СК&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="pTG25tufGUdgOwVjfufl-33">
           <mxGeometry x="0.1112" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -137,6 +132,13 @@
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-40" value="Угол&lt;br&gt;&lt;div&gt;курса&lt;/div&gt;&lt;div&gt;$$\psi$$&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="pTG25tufGUdgOwVjfufl-39">
           <mxGeometry x="0.1416" y="-1" relative="1" as="geometry">
+            <mxPoint y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pTG25tufGUdgOwVjfufl-41" value="Шум" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;" edge="1" parent="1">
+          <mxGeometry x="-0.3333" y="25" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="144.66" y="165" as="sourcePoint" />
+            <mxPoint x="144.66" y="210.0000000000001" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
