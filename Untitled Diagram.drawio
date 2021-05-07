@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-07T14:22:51.441Z" agent="5.0 (Windows)" etag="I6jb2GUHQk5CV4Rtkwlg" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-07T14:23:51.616Z" agent="5.0 (Windows)" etag="P8nimjE1eDItE49ON7N5" version="14.6.11" type="github">
   <diagram id="kqHRchUTWrbgLfPyTyG0" name="Page-1">
     <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -8,17 +8,17 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-1" value="$$Акселерометр$$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="210" width="120" height="60" as="geometry" />
+          <mxGeometry x="193.2" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-2" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="60" y="239.66" as="sourcePoint" />
-            <mxPoint x="170" y="239.66" as="targetPoint" />
+            <mxPoint x="13.199999999999989" y="219.66" as="sourcePoint" />
+            <mxPoint x="123.19999999999999" y="219.66" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-3" value="Ускорение&amp;nbsp; $$n_x, n_y, n_z$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pTG25tufGUdgOwVjfufl-2">
           <mxGeometry x="-0.153" y="-1" relative="1" as="geometry">
-            <mxPoint y="-1" as="offset" />
+            <mxPoint y="3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pTG25tufGUdgOwVjfufl-4" target="pTG25tufGUdgOwVjfufl-1">
@@ -26,20 +26,20 @@
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pTG25tufGUdgOwVjfufl-4" target="pTG25tufGUdgOwVjfufl-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="185.20689655172418" y="190" as="targetPoint" />
+            <mxPoint x="138.40689655172417" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-4" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="225" width="30" height="30" as="geometry" />
+          <mxGeometry x="123.19999999999999" y="205" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-8" value="Шум" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="pTG25tufGUdgOwVjfufl-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="185" y="180" as="sourcePoint" />
-            <mxPoint x="170" y="130" as="targetPoint" />
+            <mxPoint x="138.2" y="160" as="sourcePoint" />
+            <mxPoint x="123.19999999999999" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pTG25tufGUdgOwVjfufl-9" value="&lt;div&gt;Коррекция&lt;/div&gt;&lt;div&gt;показаний&lt;/div&gt;&lt;div&gt;акселерометра&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="210" width="120" height="60" as="geometry" />
+          <mxGeometry x="353.20000000000005" y="190" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
